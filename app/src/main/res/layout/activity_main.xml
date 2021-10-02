@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnMarcar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marcar"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"/>
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"/>
+
+    <Button
+        android:id="@+id/btnContactos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contactos"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"/>
+
+    <Button
+        android:id="@+id/btnCamara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camara"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"/>
+
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mapa"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"/>
+
+</LinearLayout>
